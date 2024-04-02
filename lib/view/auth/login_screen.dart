@@ -32,7 +32,7 @@ class _LoginScreenState extends State<LoginScreen>
                 height: 40.h,
               ),
               Image.asset(
-                "assets/images/pattern.png",
+                "assets\images\pattern.png",
                 scale: 3,
               ),
               SizedBox(
@@ -48,10 +48,12 @@ class _LoginScreenState extends State<LoginScreen>
                 fontSize: 32.sp,
                 fontWeight: FontWeight.w600,
               ),
-              SizedBox(
+              SizedBox
+              (
                 height: 32.h,
               ),
-              Center(
+              Center
+              (
                 child: Container(
                   height: 400.h,
                   width: double.infinity,
@@ -71,7 +73,8 @@ class _LoginScreenState extends State<LoginScreen>
                       SizedBox(
                         height: 30.h,
                       ),
-                      GlobalTextField(
+                      GlobalTextField
+                      (
                         hinttext: "       Email",
                         iconsecond: Icon(Icons.expand_more),
                       ),

@@ -21,14 +21,15 @@ class _OnbordingScreenState extends State<OnbordingScreen> {
         width: 375.w,
         decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("assets\images\3969008 1 (2).png"),
+              image: AssetImage("assets\images\3969008 1 (3).png"),
               fit: BoxFit.cover),
         ),
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 32.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
+            children:
+            [
               SizedBox(
                 height: 90.h,
               ),
@@ -37,10 +38,12 @@ class _OnbordingScreenState extends State<OnbordingScreen> {
                 fontSize: 32.sp,
                 fontWeight: FontWeight.w600,
               ),
-              SizedBox(
+              SizedBox
+              (
                 height: 24.h,
               ),
-              GlobalText(
+              GlobalText
+              (
                 text:
                     "The best simple place where you \ndiscover most wonderful furniture and \nmake your home beautiful",
                 fontSize: 16.sp,
@@ -50,15 +53,18 @@ class _OnbordingScreenState extends State<OnbordingScreen> {
               SizedBox(
                 height: 432.h,
               ),
-              GlobalButton(
+               GlobalButton(
                 text: "Get Started",
                 onPressed: () {
-                  Navigator.push(
+                  Navigator.push
+                    (
                       context,
-                      MaterialPageRoute(
-                        builder: (context) => LoginScreen(),
+                      MaterialPageRoute
+                      (
+                        builder: 
+                        (context) => LoginScreen(),
                       )
-                      );
+                    );
                 },
               )
             ],
